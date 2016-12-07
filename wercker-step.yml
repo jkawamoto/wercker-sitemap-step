@@ -1,0 +1,13 @@
+name: sitemap
+version: 0.1.0
+description: |
+  Generate a site map by sitemap-gen.
+type: build
+properties:
+  baseurl:
+    type: string
+    required: true
+  rootdir:
+    type: string
+    default: ""
+    required: false
